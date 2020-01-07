@@ -1,6 +1,6 @@
 #' Density plot function
 #'
-#' @param vect numerical vector
+#' @param v numerical vector
 #'
 #' @return density plot
 #'
@@ -9,10 +9,10 @@
 #' @export
 #'
 #' @examples
-density_plot <- function(vect) {
-  stopifnot(is.numeric(vect))
+density_plot <- function(v) {
+  stopifnot(is.numeric(v))
 
-  data.frame(values = vect) %>%
+  data.frame(values = v) %>%
     ggplot(aes(x = values)) +
     geom_density()
 }

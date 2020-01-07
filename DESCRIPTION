@@ -15,4 +15,5 @@ LazyData: true
 URL: https://github.com/ldbraunholtz/mylilpackage
 BugReports: https://github.com/ldbraunholtz/mylilpackage/issues
 RoxygenNote: 7.0.2
-
+Suggests: 
+    testthat (>= 2.1.0)

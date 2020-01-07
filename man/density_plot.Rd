@@ -4,10 +4,10 @@
 \alias{density_plot}
 \title{Density plot function}
 \usage{
-density_plot(vect)
+density_plot(v)
 }
 \arguments{
-\item{vect}{numerical vector}
+\item{v}{numerical vector}
 }
 \value{
 density plot
