@@ -8,9 +8,11 @@ Authors@R:
            email = "first.last@example.com",
            comment = c(ORCID = "YOUR-ORCID-ID"))
 Description: What the package does (one paragraph).
+Imports: ggplot2, magrittr, stats
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 URL: https://github.com/ldbraunholtz/mylilpackage
 BugReports: https://github.com/ldbraunholtz/mylilpackage/issues
 RoxygenNote: 7.0.2
+
