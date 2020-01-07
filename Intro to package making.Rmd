@@ -1,0 +1,30 @@
+---
+title: "Building Package"
+author: "L Braunholtz"
+date: "07/01/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+## What's in the package?
+
+***.gitignore***
+
+***.Rbuildignore*** list of files that need but won't be included when we build the package from source
+
+***DESCRIPTION*** provides the metadata for the package - we'll edit this
+
+***NAMESPACE*** will automatically change as we change the package
+
+***R*** "The business end of the package", where all the functions live
+
+## Connecting to Github
+
+Then get the github dowloaded and connected to your R by following the internets instructions and terminal...
+
+```{r tell r to use git, include=FALSE}
+library(devtools)
+use_git()
+```
